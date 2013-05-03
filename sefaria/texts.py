@@ -1307,7 +1307,6 @@ category_order = [
 	'Mishna',
 	'Talmud',
 	'Midrash',
-	'Targum',
 	'Mishneh Torah',
 	'Halacha', 
 	'Kabbalah',
