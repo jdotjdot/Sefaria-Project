@@ -314,6 +314,26 @@
   background: #eee;
 }
 
+#textsList .category {
+  margin: 4px;
+  display: inline-block;
+  width: 230px;
+}
+
+#textsList .category .categoryName{
+  width: auto;
+}
+
+#textsPage .category.sub li {
+  display: block;
+  width: auto;
+}
+
+#textsPage .category.sub {
+  display: block;
+  width: auto;
+}
+
 #textsList .categoryName {
   font-size: 24px;
   font-weight: bold;
@@ -326,7 +346,6 @@
 #textsPage #textsList .text > table:hover .title{
   text-decoration: underline;  
 }
-
 
 #textsList .sub .categoryName {
   font-size: 20px;
@@ -353,7 +372,6 @@
   margin: 4px 14px;
   background: white;
 }
-
 
 #textsList .sub, #textsList .text {
   border: 1px solid white;

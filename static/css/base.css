@@ -491,8 +491,9 @@ html, body {
 }
 
 #textsPage {
-	width: 800px;
 	margin: 50px auto;
+	max-width: 900px;
+	text-align: center;
 	padding-bottom: 60px;
 }
 
@@ -506,6 +507,7 @@ html, body {
 #textsPage h1 {
 	font-family: Georgia, serif;
 	text-align: center;
+	font-size: 40px;
 }
 
 #textsPage #expand {
