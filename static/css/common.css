@@ -607,6 +607,10 @@
   top: -2px;
 }
 
+#top #textsMenu #addText {
+  display: none;
+}
+
 #top #textsMenu .ui-icon {
   display: inline-block;
   vertical-align: middle;
@@ -615,96 +619,6 @@
 #top #textsList {
   color: black;
   margin: 0;
-}
-
-#top #textsList .subBox {
-  top: 0;
-  margin: 0;
-  position: absolute;
-  left: 94%;
-  z-index: 3;
-  border: 1px solid #aaa;
-  box-shadow: 1px 1px 5px #777;
-}
-
-#top #textsList .sub {
-  padding: 0;
-}
-
-#top #textsList .sub.category {
-  padding: 5px;
-  color: black;
-}
-
-#top #textsList li {
-  padding: 5px; 
-  background: white;
-  border: none;
-  box-shadow: none;
-  letter-spacing: 1px;
-  margin: 0;
-}
-
-#top #textsList .text:hover .title a,
-#top #textsList .category:hover > table .categoryName {
-  color: white;
-}
-
-#top #textsList .category:hover,
-#top #textsList .text:hover{
-  background-color: #08c;
-}
-
-#top #textsList .text.hasDetails:hover .title a{
-  color: black;
-}
-
-#top #textsList .text.hasDetails:hover {
-  background-color: white;
-}
-
-#top #textsList .categoryName {
-  font-weight: normal;
-  white-space: nowrap;
-  width: auto;
-  font-size: 15px;
-}
-
-#top #textsList .categoryName:hover {
-  text-decoration: none;
-}
-
-#top #textsList .categoryName img {
-  display: none;
-}
-
-#top #textsList .length, #top #textsList .counts {
-  display: none;
-}
-
-#top #textsList .category {
-  position: relative;
-  width: auto;
-}
-
-#top #textsList .category .subBox {
-  width: auto;
-  min-width: 100px;
-}
-
-#top #textsList .category.menuOpen > .subBox {
-  display: block;
-}
-
-#top #textsList .text {
-  width: auto;
-}
-
-#top #textsList .text.hasDetails {
-  width: 400px;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
-  box-shadow: inset 0px 0px 7px #08c;
 }
 
 #textsList .text .title a {
@@ -718,50 +632,6 @@
 #textsList .text .title a:hover {
   text-decoration: none;
 }
-
-#top #textsList table {
-  border-spacing: 0;
-  width: auto;
-}
-
-#top #textsList .text .available {
-  display: none;
-}
-
-#top #textsLists td {
-  padding: 0;
-}
-
-#top #textsList .title {
-  width: auto;
-  font-size: 15px;
-  font-weight: normal;
-  white-space: nowrap;
-}
-
-#top #textsList .sectionsBox {
-  max-height: 300px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-#top #textsList .sectionLink {
-  box-shadow: 1px 1px 2px #555;
-}
-
-#top #textsList .heTitle {
-  display: none;
-}
-
-#top #textsList .details {
-  border: none;
-  padding-bottom: 8px;
-}
-
-#top #textsList .detailsRight {
-  display: none;
-}
-
 
 #addText {
   margin: 6px 6px -4px;

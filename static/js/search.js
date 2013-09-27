@@ -5,7 +5,7 @@ sjs.pageSize = 40;
 $.extend(sjs, {
 	currentPage: "search",
 	currentFacet: null,
-	searchUrl: "http://search.sefaria.org:9200/sefaria/_search?size=" + sjs.pageSize,
+	searchUrl: sjs.searchBaseUrl + "/sefaria/_search?size=" + sjs.pageSize,
 	search: function(query, page) {
 
 			$header = $("#searchHeader");
